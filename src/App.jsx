@@ -13,10 +13,10 @@ function App() {
       <Routes>
         <Route path='/' element={<>
             <div>
-          <Link href="/about">
+          <Link to="/about">
             <img src={viteLogo} className="logo" alt="Vite logo" />
           </Link>
-          <Link href="/about">
+          <Link to="/about">
             <img src={reactLogo} className="logo react" alt="React logo" />
           </Link>
         </div>
