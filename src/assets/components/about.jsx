@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const About = () => {
     
  
@@ -6,7 +8,7 @@ const About = () => {
             <div className="about__container">
                 <h1>
                     About Page &nbsp;
-                    <a href="/">Home</a>
+                    <Link href="/">Home</Link>
                 </h1>
             </div>
         </>

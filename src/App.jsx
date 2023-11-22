@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Route, Routes } from 'react-router-dom'
+import { Link, Route, Routes } from 'react-router-dom'
 import About from './assets/components/about'
 
 function App() {
@@ -13,12 +13,12 @@ function App() {
       <Routes>
         <Route path='/' element={<>
             <div>
-          <a href="/about">
+          <Link href="/about">
             <img src={viteLogo} className="logo" alt="Vite logo" />
-          </a>
-          <a href="/about">
+          </Link>
+          <Link href="/about">
             <img src={reactLogo} className="logo react" alt="React logo" />
-          </a>
+          </Link>
         </div>
         <h1>Vite + React</h1>
         <div className="card">
