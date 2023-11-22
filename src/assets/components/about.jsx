@@ -8,7 +8,7 @@ const About = () => {
             <div className="about__container">
                 <h1>
                     About Page &nbsp;
-                    <Link href="/">Home</Link>
+                    <Link to="/">Home</Link>
                 </h1>
             </div>
         </>
